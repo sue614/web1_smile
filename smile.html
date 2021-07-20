@@ -8,19 +8,24 @@
   </head>
 
 <body>
+
 <style>
 *{text-align: center;}
-h1 {font-size: 300%;}
-h4 {font-size: 220%;}
-p {font-size: 190%;}
+h1 {font-size: 200%;}
+h4 {font-size: 100%;}
+p {font-size: 100%;}
 div {border: solid 5px pink;
-    margin: 50px;}
+    margin: 100px;}
 @media(max-width:800px)
     {
-      video {width: 90%;}
-
+      video {width: 50%;}
+      iframe {width: 50%;}
+      p {font-size: 100%;}
+      div {margin: 50px;
+        margin-top: 0px;
+      margin-bottom: 0px;}
+      h1 {margin-bottom: 10px;}
   }
-
 </style>
 
 <H1>스마일의 초계국수 만들기</H1>
@@ -35,9 +40,9 @@ div {border: solid 5px pink;
 </P>
 </div>
 <h4>완성 비쥬얼</h4>
-<video src="모락모락.mp4" width="80%" controls autoplay loop muted playsinline></video>
+<video src="모락모락.mp4" width="50%" controls autoplay loop muted playsinline></video>
 <h4>레시피 영상보기</h4>
-<iframe width="80%" height="75%" src="https://www.youtube.com/embed/3GvK9u-2C5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="50%" src="https://www.youtube.com/embed/3GvK9u-2C5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </body>
 
 </html>
